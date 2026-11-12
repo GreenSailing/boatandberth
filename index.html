@@ -1,6 +1,384 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Home · Boat &amp; Berth</title><link rel="icon" href="favicon.svg"><style>body{margin:0;font:16px/1.6 Inter,system-ui,sans-serif;color:#13293D;background:#EAF2F7}
-header{background:#13293D;color:#fff;padding:18px 20px}header a{color:#fff;text-decoration:none;font-weight:600}
-main{max-width:760px;margin:0 auto;padding:20px 16px 60px;background:#fff}
-h1,h2,h3{font-family:Georgia,serif;color:#2A5C8A}h1{border-bottom:3px solid #E8793A;padding-bottom:6px}
-a{color:#2A5C8A;overflow-wrap:anywhere}table{border-collapse:collapse;display:block;overflow-x:auto}td,th{border:1px solid #cdd9e3;padding:6px 8px;text-align:left;vertical-align:top}
-footer{text-align:center;font-size:.85rem;color:#5b6b7a;padding:20px}</style></head><body><header><a href="index.html">Boat &amp; Berth Greece</a></header><main><h1>Boat &amp; Berth Greece</h1><p>The Android app for finding, buying and keeping a used sailing boat in Greece.</p><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Disclaimers and terms of use</a></li><li><a href="ad-rules.html">Rules for private ads</a></li></ul><p>Questions and suggestions: <a href="mailto:boatandberth@gmail.com">boatandberth@gmail.com</a></p></main><footer>Boat &amp; Berth · <a href="mailto:boatandberth@gmail.com">boatandberth@gmail.com</a></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boat &amp; Berth: find, buy and keep a used sailboat in the Mediterranean</title>
+<meta name="description" content="Boat &amp; Berth is an app for Android and iPhone for buying, then owning, a used sailboat in Greece, Croatia, Turkey, Cyprus and Malta. Free to use, with in-app purchases for extras.">
+<meta property="og:title" content="Boat &amp; Berth">
+<meta property="og:description" content="Find a boat, buy it well, keep it right. An app for used sailboats in the Mediterranean.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://boatandberth.com/">
+<meta property="og:image" content="https://boatandberth.com/img/icon-192.png">
+<link rel="canonical" href="https://boatandberth.com/">
+<link rel="icon" href="favicon.svg">
+<link rel="preload" href="fonts/caladea-700.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Caladea";font-weight:700;src:url("fonts/caladea-700.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Inter";font-weight:400;src:url("fonts/inter-400.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Inter";font-weight:600;src:url("fonts/inter-600.woff2") format("woff2");font-display:swap}
+:root{--blue:#2A5C8A;--orange:#E8793A;--paper:#EAF2F7;--deep:#13293D;--soft:#4F677C;--line:#CFDCE6;--white:#fff;--sun:#B85618}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:17px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--deep);background:var(--white);-webkit-text-size-adjust:100%}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--blue)}
+h1,h2,h3{font-family:"Caladea",Georgia,"Times New Roman",serif;line-height:1.15;margin:0;color:var(--deep)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* top bar */
+.bar{background:var(--deep);color:#fff;position:sticky;top:0;z-index:5}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px}
+.bar img{height:38px;width:auto}
+.lang{display:flex;align-items:center;gap:8px;font-size:.85rem;color:#C9D8E4}
+.lang select{font:inherit;color:#fff;background:#1E3B55;border:1px solid #3B5B78;border-radius:8px;padding:8px 10px;min-height:40px}
+.lang select:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+
+/* hero: chart paper with a large grid */
+.hero{background-color:var(--paper);background-image:linear-gradient(rgba(42,92,138,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(42,92,138,.16) 1px,transparent 1px);background-size:126px 126px;border-bottom:1px solid var(--line);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1fr;gap:28px;padding-top:44px;padding-bottom:0;align-items:end}
+.hero h1{font-size:clamp(2.1rem,6.2vw,3.5rem);letter-spacing:-.01em}
+.hero h1 span{display:block}
+.hero h1 .o{color:var(--blue)}
+.lead{font-size:1.14rem;color:var(--soft);margin:16px 0 0;max-width:34em}
+.pill{display:inline-flex;align-items:center;gap:10px;margin-top:24px;padding:11px 18px;border-radius:999px;background:var(--deep);color:#fff;font-weight:600;font-size:.98rem}
+.pill i{width:9px;height:9px;border-radius:50%;background:var(--orange);display:inline-block;flex:none}
+.free{margin:12px 0 0;font-size:.95rem;color:var(--soft)}
+.hero-copy{padding-bottom:40px}
+.phone{width:min(300px,78%);margin:0 auto;border:9px solid var(--deep);border-bottom:0;border-radius:34px 34px 0 0;overflow:hidden;background:#fff;box-shadow:0 18px 40px rgba(19,41,61,.22);max-height:500px}
+.phone img{width:100%}
+
+/* sections */
+section.part{padding:56px 0;border-bottom:1px solid var(--line)}
+section.part.tint{background:#F6FAFC}
+.part .wrap{display:grid;grid-template-columns:1fr;gap:30px;align-items:center}
+.kicker{font-size:.8rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--sun);display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.kicker::before{content:"";width:26px;height:3px;background:var(--orange);border-radius:2px}
+.part h2{font-size:clamp(1.7rem,4.4vw,2.4rem)}
+.part ul{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:12px}
+.part li{position:relative;padding-left:30px}
+.part li::before{content:"";position:absolute;left:0;top:.42em;width:14px;height:14px;border:3px solid var(--blue);border-radius:50%}
+.shot{width:min(280px,74%);margin:0 auto;border:8px solid var(--deep);border-radius:30px;overflow:hidden;background:#fff;box-shadow:0 14px 34px rgba(19,41,61,.18)}
+
+/* more, coverage */
+.more{padding:52px 0;background:var(--deep);color:#E6EEF4}
+.more h2{color:#fff;font-size:clamp(1.5rem,4vw,2rem)}
+.tiles{display:grid;grid-template-columns:1fr;gap:14px;margin-top:22px}
+.tile{border:1px solid #33506B;border-radius:14px;padding:18px 18px 16px;background:#19344D}
+.tile h3{color:#fff;font-size:1.2rem;margin-bottom:6px}
+.tile p{margin:0;color:#C9D8E4;font-size:.98rem}
+.cover{padding:52px 0;background:var(--paper)}
+.cover .wrap{display:grid;grid-template-columns:1fr;gap:26px}
+.cover h2{font-size:1.5rem;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-weight:600;font-size:.95rem}
+.note{margin:14px 0 0;color:var(--soft);font-size:.98rem;max-width:36em}
+
+footer{background:#0E2031;color:#B9CAD8;font-size:.92rem;padding:30px 0 34px}
+footer .wrap{display:grid;gap:12px}
+footer a{color:#fff}
+footer nav{display:flex;flex-wrap:wrap;gap:8px 20px}
+footer p{margin:0}
+.fine{font-size:.84rem;color:#8FA6B8;max-width:60em}
+
+@media (min-width:820px){
+  .hero .wrap{grid-template-columns:1.15fr .85fr;gap:40px;padding-top:64px}
+  .hero-copy{padding-bottom:72px}
+  .part .wrap{grid-template-columns:1fr 1fr;gap:56px}
+  section.part.flip .copy{order:2}
+  .tiles{grid-template-columns:repeat(3,1fr)}
+  .cover .wrap{grid-template-columns:1fr 1fr;gap:48px}
+  section.part{padding:76px 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a href="./" aria-label="Boat &amp; Berth"><img src="img/logo-white.svg" width="164" height="38" alt="Boat &amp; Berth"></a>
+    <label class="lang"><span data-t="lang">Language</span>
+      <select id="lang">
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="it">Italiano</option>
+        <option value="es">Español</option>
+        <option value="nl">Nederlands</option>
+        <option value="el">Ελληνικά</option>
+      </select>
+    </label>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <h1><span data-t="h1a">Find a boat,</span><span class="o" data-t="h1b">buy it well,</span><span data-t="h1c">keep it right.</span></h1>
+      <p class="lead" data-t="lead">An app for Android and iPhone for buying, then owning, a used sailboat in the Mediterranean.</p>
+      <div class="pill"><i></i><span data-t="soon">Coming soon to Google Play and the App Store</span></div>
+      <p class="free" data-t="free">Free to use, with in-app purchases for extras.</p>
+    </div>
+    <div class="phone"><img data-shot="keep" src="img/keep-en.webp" width="540" height="1080" alt="The Keep screen: maintenance plan, log and service history" data-alt="altKeep"></div>
+  </div>
+</div>
+
+<section class="part" id="find">
+  <div class="wrap">
+    <div class="copy">
+      <div class="kicker" data-t="k1">Find</div>
+      <h2 data-t="f_h">Boats for sale, ranked for you</h2>
+      <ul>
+        <li data-t="f_1">Answer ten questions about your budget, the size you want and what matters to you.</li>
+        <li data-t="f_2">Every boat gets a score against your answers, with the likely work and a fair price.</li>
+        <li data-t="f_3">Each boat links to its original ad. The app keeps only the facts: no photos, no ad text.</li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" data-shot="find" src="img/find-en.webp" width="540" height="1080" alt="The Find screen: boats for sale ranked by score" data-alt="altFind"></div>
+  </div>
+</section>
+
+<section class="part flip tint" id="buy">
+  <div class="wrap">
+    <div class="copy">
+      <div class="kicker" data-t="k2">Buy</div>
+      <h2 data-t="b_h">Buy it well</h2>
+      <ul>
+        <li data-t="b_1">A viewing checklist that finds the expensive problems before you pay.</li>
+        <li data-t="b_2">Questions for the seller, and the papers you should see.</li>
+        <li data-t="b_3">First-year costs and the paperwork of each country, step by step.</li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" data-shot="buy" src="img/buy-en.webp" width="540" height="1080" alt="The Buy screen: checklist, questions for the seller and paperwork" data-alt="altBuy"></div>
+  </div>
+</section>
+
+<section class="part" id="keep">
+  <div class="wrap">
+    <div class="copy">
+      <div class="kicker" data-t="k3">Keep</div>
+      <h2 data-t="k_h">Keep it right</h2>
+      <ul>
+        <li data-t="k_1">A maintenance plan that tells you what is due, by date and by engine hours.</li>
+        <li data-t="k_2">A log of the work, the costs and the photos, and a service history to print.</li>
+        <li data-t="k_3">Marinas and harbours, how-to jobs, and the yearly taxes and fees.</li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" data-shot="keep" src="img/keep-en.webp" width="540" height="1080" alt="The Keep screen: maintenance plan, log and service history" data-alt="altKeep"></div>
+  </div>
+</section>
+
+<div class="more">
+  <div class="wrap">
+    <h2 data-t="m_h">Also in the app</h2>
+    <div class="tiles">
+      <div class="tile"><h3 data-t="m1_h">Skipper's course cards</h3><p data-t="m1_p">Thirty-three revision cards for the day-skipper syllabus, with drawings and a test mode.</p></div>
+      <div class="tile"><h3 data-t="m2_h">VHF radio trainer</h3><p data-t="m2_p">A practice radio with DSC: distress, urgency, safety and routine calls, marked as you speak.</p></div>
+      <div class="tile"><h3 data-t="m3_h">Printable cards</h3><p data-t="m3_p">Survey cards, an engine card and a Mayday card with your boat's name and call sign.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="cover">
+  <div class="wrap">
+    <div>
+      <h2 data-t="c_h1">Five countries</h2>
+      <ul class="chips">
+        <li data-t="gr">Greece</li><li data-t="hr">Croatia</li><li data-t="tr">Turkey</li><li data-t="cy">Cyprus</li><li data-t="mt">Malta</li>
+      </ul>
+      <p class="note" data-t="c_n1">Costs, marinas, paperwork and a sailing glossary for each.</p>
+    </div>
+    <div>
+      <h2 data-t="c_h2">Seven languages</h2>
+      <ul class="chips">
+        <li>English</li><li>Deutsch</li><li>Français</li><li>Italiano</li><li>Español</li><li>Nederlands</li><li>Ελληνικά</li>
+      </ul>
+      <p class="note" data-t="c_n2">Your records stay on your phone. No account is needed to find, buy or keep.</p>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Legal">
+      <a href="privacy.html" data-t="ft_p">Privacy policy</a>
+      <a href="terms.html" data-t="ft_t">Disclaimers and terms</a>
+      <a href="ad-rules.html" data-t="ft_a">Rules for private ads</a>
+      <a href="mailto:info@boatandberth.com" data-t="ft_c">Contact</a>
+    </nav>
+    <p class="fine" data-t="ft_n">General guidance, not professional advice. Listings are facts and a link to other sites; the original ad is what counts. The policy pages are in English.</p>
+    <p>© 2026 Boat &amp; Berth</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var T = {
+    de: { lang: "Sprache", h1a: "Ein Boot finden,", h1b: "gut kaufen,", h1c: "richtig pflegen.",
+      lead: "Eine App für Android und iPhone für den Kauf und den Besitz eines gebrauchten Segelboots im Mittelmeer.",
+      soon: "Bald bei Google Play und im App Store", free: "Kostenlos nutzbar, mit In-App-Käufen für Extras.",
+      k1: "Finden", f_h: "Boote zum Verkauf, für Sie sortiert",
+      f_1: "Beantworten Sie zehn Fragen zu Ihrem Budget, der gewünschten Größe und dem, was Ihnen wichtig ist.",
+      f_2: "Jedes Boot erhält eine Bewertung nach Ihren Antworten, mit den wahrscheinlichen Arbeiten und einem fairen Preis.",
+      f_3: "Jedes Boot führt zur Originalanzeige. Die App speichert nur die Fakten: keine Fotos, keinen Anzeigentext.",
+      k2: "Kaufen", b_h: "Gut kaufen",
+      b_1: "Eine Besichtigungs-Checkliste, die die teuren Probleme findet, bevor Sie zahlen.",
+      b_2: "Fragen an den Verkäufer und die Unterlagen, die Sie sehen sollten.",
+      b_3: "Kosten im ersten Jahr und die Formalitäten jedes Landes, Schritt für Schritt.",
+      k3: "Pflegen", k_h: "Richtig pflegen",
+      k_1: "Ein Wartungsplan, der zeigt, was fällig ist, nach Datum und nach Motorstunden.",
+      k_2: "Ein Logbuch der Arbeiten, Kosten und Fotos, und eine Wartungshistorie zum Drucken.",
+      k_3: "Marinas und Häfen, Anleitungen für die Arbeiten und die jährlichen Steuern und Gebühren.",
+      m_h: "Außerdem in der App", m1_h: "Lernkarten für Skipper", m1_p: "Dreiunddreißig Lernkarten zum Day-Skipper-Lehrplan, mit Zeichnungen und Testmodus.",
+      m2_h: "UKW-Funktrainer", m2_p: "Ein Übungsfunkgerät mit DSC: Not-, Dringlichkeits-, Sicherheits- und Routinerufe, beim Sprechen bewertet.",
+      m3_h: "Karten zum Drucken", m3_p: "Gutachter-Karten, eine Motorkarte und eine Mayday-Karte mit Bootsname und Rufzeichen.",
+      c_h1: "Fünf Länder", gr: "Griechenland", hr: "Kroatien", tr: "Türkei", cy: "Zypern", mt: "Malta",
+      c_n1: "Kosten, Marinas, Formalitäten und ein Segel-Glossar für jedes Land.",
+      c_h2: "Sieben Sprachen", c_n2: "Ihre Aufzeichnungen bleiben auf Ihrem Telefon. Zum Finden, Kaufen und Pflegen ist kein Konto nötig.",
+      ft_p: "Datenschutzerklärung", ft_t: "Hinweise und Nutzungsbedingungen", ft_a: "Regeln für private Anzeigen", ft_c: "Kontakt",
+      ft_n: "Allgemeine Orientierung, keine fachliche Beratung. Inserate sind Fakten und ein Link zu anderen Seiten; maßgeblich ist die Originalanzeige. Die Seiten zu den Richtlinien sind auf Englisch.",
+      altFind: "Der Finden-Bildschirm: Boote zum Verkauf, nach Bewertung sortiert", altBuy: "Der Kaufen-Bildschirm: Checkliste, Fragen an den Verkäufer und Formalitäten", altKeep: "Der Pflegen-Bildschirm: Wartungsplan, Logbuch und Wartungshistorie" },
+    fr: { lang: "Langue", h1a: "Trouver un bateau,", h1b: "bien l'acheter,", h1c: "bien l'entretenir.",
+      lead: "Une application pour Android et iPhone pour acheter, puis posséder, un voilier d'occasion en Méditerranée.",
+      soon: "Bientôt sur Google Play et l'App Store", free: "Gratuite, avec des achats intégrés pour les extras.",
+      k1: "Trouver", f_h: "Les bateaux à vendre, classés pour vous",
+      f_1: "Répondez à dix questions sur votre budget, la taille souhaitée et ce qui compte pour vous.",
+      f_2: "Chaque bateau reçoit une note selon vos réponses, avec les travaux probables et un juste prix.",
+      f_3: "Chaque bateau renvoie à son annonce d'origine. L'application ne garde que les faits : ni photos, ni texte d'annonce.",
+      k2: "Acheter", b_h: "Bien l'acheter",
+      b_1: "Une liste de contrôle pour la visite, qui repère les problèmes coûteux avant de payer.",
+      b_2: "Les questions à poser au vendeur et les documents à voir.",
+      b_3: "Les coûts de la première année et les démarches de chaque pays, étape par étape.",
+      k3: "Entretenir", k_h: "Bien l'entretenir",
+      k_1: "Un plan d'entretien qui indique ce qui est à faire, par date et par heures moteur.",
+      k_2: "Un journal des travaux, des coûts et des photos, et un historique d'entretien à imprimer.",
+      k_3: "Marinas et ports, fiches pratiques, taxes et frais annuels.",
+      m_h: "Aussi dans l'application", m1_h: "Fiches du cours de skipper", m1_p: "Trente-trois fiches de révision du programme day skipper, avec schémas et mode test.",
+      m2_h: "Entraîneur radio VHF", m2_p: "Une radio d'entraînement avec ASN : appels de détresse, d'urgence, de sécurité et de routine, notés pendant que vous parlez.",
+      m3_h: "Fiches à imprimer", m3_p: "Fiches d'expertise, une fiche moteur et une fiche Mayday au nom et à l'indicatif de votre bateau.",
+      c_h1: "Cinq pays", gr: "Grèce", hr: "Croatie", tr: "Turquie", cy: "Chypre", mt: "Malte",
+      c_n1: "Coûts, marinas, démarches et glossaire de voile pour chacun.",
+      c_h2: "Sept langues", c_n2: "Vos données restent sur votre téléphone. Aucun compte n'est nécessaire pour trouver, acheter ou entretenir.",
+      ft_p: "Politique de confidentialité", ft_t: "Avertissements et conditions", ft_a: "Règles des annonces privées", ft_c: "Contact",
+      ft_n: "Informations générales, pas un conseil professionnel. Les annonces sont des faits et un lien vers d'autres sites ; l'annonce d'origine fait foi. Les pages de politique sont en anglais.",
+      altFind: "L'écran Trouver : bateaux à vendre classés par note", altBuy: "L'écran Acheter : liste de contrôle, questions au vendeur et démarches", altKeep: "L'écran Entretenir : plan d'entretien, journal et historique" },
+    it: { lang: "Lingua", h1a: "Trova una barca,", h1b: "comprala bene,", h1c: "mantienila bene.",
+      lead: "Un'app per Android e iPhone per comprare, e poi possedere, una barca a vela usata nel Mediterraneo.",
+      soon: "Presto su Google Play e App Store", free: "Gratuita, con acquisti in-app per gli extra.",
+      k1: "Trova", f_h: "Barche in vendita, ordinate per te",
+      f_1: "Rispondi a dieci domande sul budget, sulla misura che vuoi e su ciò che conta per te.",
+      f_2: "Ogni barca riceve un punteggio in base alle tue risposte, con i lavori probabili e un prezzo equo.",
+      f_3: "Ogni barca rimanda all'annuncio originale. L'app conserva solo i dati: niente foto, niente testo dell'annuncio.",
+      k2: "Compra", b_h: "Comprala bene",
+      b_1: "Una lista di controllo per la visita, che trova i problemi costosi prima di pagare.",
+      b_2: "Le domande per il venditore e i documenti da vedere.",
+      b_3: "I costi del primo anno e le pratiche di ogni paese, passo dopo passo.",
+      k3: "Mantieni", k_h: "Mantienila bene",
+      k_1: "Un piano di manutenzione che indica cosa è in scadenza, per data e per ore motore.",
+      k_2: "Un registro di lavori, costi e foto, e uno storico della manutenzione da stampare.",
+      k_3: "Marine e porti, guide ai lavori, tasse e diritti annuali.",
+      m_h: "Inoltre nell'app", m1_h: "Schede del corso skipper", m1_p: "Trentatré schede di ripasso del programma day skipper, con disegni e modalità test.",
+      m2_h: "Simulatore radio VHF", m2_p: "Una radio di prova con DSC: chiamate di soccorso, urgenza, sicurezza e di routine, valutate mentre parli.",
+      m3_h: "Schede da stampare", m3_p: "Schede di perizia, una scheda motore e una scheda Mayday con nome e nominativo della barca.",
+      c_h1: "Cinque paesi", gr: "Grecia", hr: "Croazia", tr: "Turchia", cy: "Cipro", mt: "Malta",
+      c_n1: "Costi, marine, pratiche e un glossario di vela per ciascuno.",
+      c_h2: "Sette lingue", c_n2: "I tuoi dati restano sul telefono. Non serve un account per trovare, comprare o mantenere.",
+      ft_p: "Informativa sulla privacy", ft_t: "Avvertenze e condizioni", ft_a: "Regole per gli annunci privati", ft_c: "Contatto",
+      ft_n: "Indicazioni generali, non consulenza professionale. Gli annunci sono dati e un link ad altri siti; fa fede l'annuncio originale. Le pagine delle norme sono in inglese.",
+      altFind: "La schermata Trova: barche in vendita ordinate per punteggio", altBuy: "La schermata Compra: lista di controllo, domande al venditore e pratiche", altKeep: "La schermata Mantieni: piano di manutenzione, registro e storico" },
+    es: { lang: "Idioma", h1a: "Encuentra un barco,", h1b: "cómpralo bien,", h1c: "mantenlo bien.",
+      lead: "Una app para Android y iPhone para comprar, y después tener, un velero de segunda mano en el Mediterráneo.",
+      soon: "Próximamente en Google Play y App Store", free: "Gratis, con compras dentro de la app para los extras.",
+      k1: "Buscar", f_h: "Barcos en venta, ordenados para ti",
+      f_1: "Responde a diez preguntas sobre tu presupuesto, la eslora que quieres y lo que te importa.",
+      f_2: "Cada barco recibe una puntuación según tus respuestas, con los trabajos probables y un precio justo.",
+      f_3: "Cada barco enlaza con su anuncio original. La app solo guarda los datos: ni fotos ni texto del anuncio.",
+      k2: "Comprar", b_h: "Cómpralo bien",
+      b_1: "Una lista de comprobación para la visita, que encuentra los problemas caros antes de pagar.",
+      b_2: "Preguntas para el vendedor y los papeles que debes ver.",
+      b_3: "Los costes del primer año y los trámites de cada país, paso a paso.",
+      k3: "Mantener", k_h: "Mantenlo bien",
+      k_1: "Un plan de mantenimiento que indica lo que toca, por fecha y por horas de motor.",
+      k_2: "Un registro de trabajos, costes y fotos, y un historial de mantenimiento para imprimir.",
+      k_3: "Marinas y puertos, guías de trabajos, impuestos y tasas anuales.",
+      m_h: "También en la app", m1_h: "Fichas del curso de patrón", m1_p: "Treinta y tres fichas de repaso del temario de day skipper, con dibujos y modo de prueba.",
+      m2_h: "Simulador de radio VHF", m2_p: "Una radio de práctica con DSC: llamadas de socorro, urgencia, seguridad y rutina, evaluadas mientras hablas.",
+      m3_h: "Fichas para imprimir", m3_p: "Fichas de peritaje, una ficha de motor y una ficha Mayday con el nombre y el indicativo de tu barco.",
+      c_h1: "Cinco países", gr: "Grecia", hr: "Croacia", tr: "Turquía", cy: "Chipre", mt: "Malta",
+      c_n1: "Costes, marinas, trámites y un glosario de vela para cada uno.",
+      c_h2: "Siete idiomas", c_n2: "Tus datos se quedan en tu teléfono. No hace falta cuenta para buscar, comprar o mantener.",
+      ft_p: "Política de privacidad", ft_t: "Avisos y condiciones", ft_a: "Normas de los anuncios privados", ft_c: "Contacto",
+      ft_n: "Orientación general, no asesoramiento profesional. Los anuncios son datos y un enlace a otros sitios; vale el anuncio original. Las páginas de políticas están en inglés.",
+      altFind: "La pantalla Buscar: barcos en venta ordenados por puntuación", altBuy: "La pantalla Comprar: lista de comprobación, preguntas al vendedor y trámites", altKeep: "La pantalla Mantener: plan de mantenimiento, registro e historial" },
+    nl: { lang: "Taal", h1a: "Vind een boot,", h1b: "koop hem goed,", h1c: "onderhoud hem goed.",
+      lead: "Een app voor Android en iPhone voor het kopen en daarna bezitten van een tweedehands zeilboot in de Middellandse Zee.",
+      soon: "Binnenkort in Google Play en de App Store", free: "Gratis te gebruiken, met in-app-aankopen voor extra's.",
+      k1: "Vinden", f_h: "Boten te koop, voor u gerangschikt",
+      f_1: "Beantwoord tien vragen over uw budget, de gewenste maat en wat voor u telt.",
+      f_2: "Elke boot krijgt een score op basis van uw antwoorden, met het te verwachten werk en een reële prijs.",
+      f_3: "Elke boot linkt naar de originele advertentie. De app bewaart alleen de feiten: geen foto's, geen advertentietekst.",
+      k2: "Kopen", b_h: "Koop hem goed",
+      b_1: "Een bezichtigingschecklist die de dure problemen vindt voordat u betaalt.",
+      b_2: "Vragen voor de verkoper en de papieren die u moet zien.",
+      b_3: "De kosten van het eerste jaar en het papierwerk van elk land, stap voor stap.",
+      k3: "Onderhouden", k_h: "Onderhoud hem goed",
+      k_1: "Een onderhoudsplan dat laat zien wat er moet gebeuren, op datum en op motoruren.",
+      k_2: "Een log van het werk, de kosten en de foto's, en een onderhoudshistorie om te printen.",
+      k_3: "Jachthavens en havens, klusinstructies en de jaarlijkse belastingen en leges.",
+      m_h: "Ook in de app", m1_h: "Leerkaarten voor schippers", m1_p: "Drieëndertig leerkaarten voor het day-skipper-programma, met tekeningen en een testmodus.",
+      m2_h: "Marifoontrainer", m2_p: "Een oefenmarifoon met DSC: nood-, spoed-, veiligheids- en routineoproepen, beoordeeld terwijl u spreekt.",
+      m3_h: "Kaarten om te printen", m3_p: "Expertisekaarten, een motorkaart en een Mayday-kaart met de naam en roepnaam van uw boot.",
+      c_h1: "Vijf landen", gr: "Griekenland", hr: "Kroatië", tr: "Turkije", cy: "Cyprus", mt: "Malta",
+      c_n1: "Kosten, jachthavens, papierwerk en een zeilwoordenlijst voor elk land.",
+      c_h2: "Zeven talen", c_n2: "Uw gegevens blijven op uw telefoon. Voor vinden, kopen of onderhouden is geen account nodig.",
+      ft_p: "Privacybeleid", ft_t: "Disclaimers en voorwaarden", ft_a: "Regels voor particuliere advertenties", ft_c: "Contact",
+      ft_n: "Algemene richtlijnen, geen professioneel advies. Advertenties zijn feiten en een link naar andere sites; de originele advertentie is bepalend. De beleidspagina's zijn in het Engels.",
+      altFind: "Het scherm Vinden: boten te koop, gerangschikt op score", altBuy: "Het scherm Kopen: checklist, vragen voor de verkoper en papierwerk", altKeep: "Het scherm Onderhouden: onderhoudsplan, log en historie" },
+    el: { lang: "Γλώσσα", h1a: "Βρείτε σκάφος,", h1b: "αγοράστε το σωστά,", h1c: "φροντίστε το σωστά.",
+      lead: "Μια εφαρμογή για Android και iPhone για την αγορά και έπειτα την ιδιοκτησία ενός μεταχειρισμένου ιστιοπλοϊκού στη Μεσόγειο.",
+      soon: "Σύντομα στο Google Play και στο App Store", free: "Δωρεάν χρήση, με αγορές εντός εφαρμογής για τα επιπλέον.",
+      k1: "Αναζήτηση", f_h: "Σκάφη προς πώληση, ταξινομημένα για εσάς",
+      f_1: "Απαντήστε σε δέκα ερωτήσεις για το ποσό που διαθέτετε, το μέγεθος που θέλετε και όσα μετρούν για εσάς.",
+      f_2: "Κάθε σκάφος παίρνει βαθμολογία με βάση τις απαντήσεις σας, με τις πιθανές εργασίες και μια εύλογη τιμή.",
+      f_3: "Κάθε σκάφος οδηγεί στην αρχική αγγελία. Η εφαρμογή κρατά μόνο τα στοιχεία: ούτε φωτογραφίες ούτε κείμενο αγγελίας.",
+      k2: "Αγορά", b_h: "Αγοράστε το σωστά",
+      b_1: "Μια λίστα ελέγχου για την επίσκεψη, που βρίσκει τα ακριβά προβλήματα πριν πληρώσετε.",
+      b_2: "Ερωτήσεις για τον πωλητή και τα χαρτιά που πρέπει να δείτε.",
+      b_3: "Τα κόστη του πρώτου χρόνου και τα διαδικαστικά κάθε χώρας, βήμα προς βήμα.",
+      k3: "Συντήρηση", k_h: "Φροντίστε το σωστά",
+      k_1: "Ένα πρόγραμμα συντήρησης που δείχνει τι εκκρεμεί, με ημερομηνία και με ώρες μηχανής.",
+      k_2: "Ένα ημερολόγιο με τις εργασίες, τα κόστη και τις φωτογραφίες, και ιστορικό συντήρησης για εκτύπωση.",
+      k_3: "Μαρίνες και λιμάνια, οδηγίες για τις εργασίες και οι ετήσιοι φόροι και τέλη.",
+      m_h: "Επίσης στην εφαρμογή", m1_h: "Κάρτες μαθημάτων skipper", m1_p: "Τριάντα τρεις κάρτες επανάληψης για την ύλη day skipper, με σχέδια και λειτουργία τεστ.",
+      m2_h: "Εκπαιδευτής ασυρμάτου VHF", m2_p: "Ασύρματος εξάσκησης με DSC: κλήσεις κινδύνου, επείγοντος, ασφαλείας και ρουτίνας, που αξιολογούνται καθώς μιλάτε.",
+      m3_h: "Κάρτες για εκτύπωση", m3_p: "Κάρτες επιθεώρησης, κάρτα μηχανής και κάρτα Mayday με το όνομα και το διακριτικό του σκάφους σας.",
+      c_h1: "Πέντε χώρες", gr: "Ελλάδα", hr: "Κροατία", tr: "Τουρκία", cy: "Κύπρος", mt: "Μάλτα",
+      c_n1: "Κόστη, μαρίνες, διαδικαστικά και γλωσσάρι ιστιοπλοΐας για καθεμία.",
+      c_h2: "Επτά γλώσσες", c_n2: "Τα στοιχεία σας μένουν στο κινητό σας. Δεν χρειάζεται λογαριασμός για αναζήτηση, αγορά ή συντήρηση.",
+      ft_p: "Πολιτική απορρήτου", ft_t: "Αποποιήσεις και όροι", ft_a: "Κανόνες ιδιωτικών αγγελιών", ft_c: "Επικοινωνία",
+      ft_n: "Γενικές οδηγίες, όχι επαγγελματική συμβουλή. Οι αγγελίες είναι στοιχεία και ένας σύνδεσμος προς άλλους ιστότοπους· ισχύει η αρχική αγγελία. Οι σελίδες πολιτικής είναι στα αγγλικά.",
+      altFind: "Η οθόνη Αναζήτηση: σκάφη προς πώληση ταξινομημένα κατά βαθμολογία", altBuy: "Η οθόνη Αγορά: λίστα ελέγχου, ερωτήσεις για τον πωλητή και διαδικαστικά", altKeep: "Η οθόνη Συντήρηση: πρόγραμμα συντήρησης, ημερολόγιο και ιστορικό" }
+  };
+  var EN = {}, nodes = document.querySelectorAll("[data-t]"), imgs = document.querySelectorAll("img[data-shot]"), sel = document.getElementById("lang");
+  nodes.forEach(function (n) { EN[n.getAttribute("data-t")] = n.textContent; });
+  imgs.forEach(function (i) { EN[i.getAttribute("data-alt")] = i.alt; });
+  function apply(l) {
+    if (l !== "en" && !T[l]) l = "en";
+    var D = T[l] || {};
+    document.documentElement.lang = l;
+    nodes.forEach(function (n) { var k = n.getAttribute("data-t"); n.textContent = D[k] || EN[k]; });
+    imgs.forEach(function (i) { i.src = "img/" + i.getAttribute("data-shot") + "-" + l + ".webp"; var k = i.getAttribute("data-alt"); i.alt = D[k] || EN[k]; });
+    sel.value = l;
+  }
+  // English unless the visitor chose another language here before, or the address says ?lang=de
+  var want = (location.search.match(/[?&]lang=([a-z]{2})/) || [])[1];
+  if (!want) { try { want = localStorage.getItem("bb.site.lang"); } catch (e) { want = null; } }
+  if (want && want !== "en") apply(want);
+  sel.addEventListener("change", function () { apply(sel.value); try { localStorage.setItem("bb.site.lang", sel.value); } catch (e) { /* not kept */ } });
+})();
+</script>
+</body>
+</html>
