@@ -1,19 +1,2 @@
-==== 13/11/2026 14:49:21.53 
+==== 13/11/2026 18:09:17.90 
 Using git: C:\Users\aliki\AppData\Local\GitHubDesktop\app-3.6.10\resources\app\git\cmd\git.exe 
-warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
-MM git.log
-M  img/find-de.webp
-M  img/find-el.webp
-M  img/find-en.webp
-M  img/find-es.webp
-M  img/find-fr.webp
-M  img/find-it.webp
-M  img/find-nl.webp
-M  index.html
-A  vosk/model2.tgz
-[main 1d3bfe5] Website: eight countries, name Boat & Berth (13/11/2026)
- 10 files changed, 15 insertions(+), 15 deletions(-)
- create mode 100644 vosk/model2.tgz
-To https://github.com/GreenSailing/boatandberth.git
-   8969599..1d3bfe5  main -> main
-PUSH OK 
