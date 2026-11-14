@@ -14,6 +14,14 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://boatandberth.com/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://boatandberth.com/#org","name":"Boat & Berth","url":"https://boatandberth.com/","logo":"https://boatandberth.com/img/icon-192.png","email":"info@boatandberth.com"},
+{"@type":"WebSite","@id":"https://boatandberth.com/#site","name":"Boat & Berth","url":"https://boatandberth.com/","publisher":{"@id":"https://boatandberth.com/#org"},"inLanguage":["en","de","fr","it","es","nl","el"]},
+{"@type":"MobileApplication","name":"Boat & Berth","operatingSystem":"Android, iOS","applicationCategory":"LifestyleApplication","description":"Find a sailboat for sale in the Mediterranean, buy it well and keep it right: listings ranked for you, fair-value prices, buying checklists, berth and running costs for Greece, Croatia, Turkey, Cyprus, Malta, Italy, Spain and France.","publisher":{"@id":"https://boatandberth.com/#org"},"image":"https://boatandberth.com/img/share-1200x630.png","inLanguage":["en","de","fr","it","es","nl","el"]}
+]}
+</script>
+
 <link rel="icon" href="favicon.svg">
 <link rel="preload" href="fonts/caladea-700.woff2" as="font" type="font/woff2" crossorigin>
 <style>
@@ -117,7 +125,7 @@ footer p{margin:0}
 #launch .lc { width: 160px; height: 160px; border-radius: 50%; background: #2A5C8A; display: flex; align-items: center; justify-content: center;
   transition: transform .45s cubic-bezier(.2,0,0,1); }
 #launch .lc svg { width: 180px; height: 180px; overflow: visible; }
-#launch .ring { stroke-dasharray: 70; stroke-dashoffset: 70; }
+#launch .ring { stroke-dasharray: 28; stroke-dashoffset: 28; }
 #launch .tick { stroke-dasharray: 7; stroke-dashoffset: 7; }
 #launch .sail { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); }
 #launch .lt { position: absolute; left: 50%; top: 100%; width: 320px; margin-left: -160px; padding-top: 14px; text-align: center;
@@ -148,8 +156,8 @@ footer p{margin:0}
 <body>
 <div id="launch" aria-hidden="true" data-no-translate>
   <div class="lm">
-    <div class="lc"><svg viewBox="0 4 100 100" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"><g transform="translate(50 54) scale(0.9) translate(-50 -46.65)">
-      <path class="ring" d="M22 40 L50 20 L78 40" stroke="#E8793A" stroke-width="7" stroke-linejoin="round"/>
+    <div class="lc"><svg viewBox="0 4 100 100" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"><g transform="translate(50 54) scale(1.05) translate(-50 -47.5)">
+      <path class="ring" d="M39 29 L50 21 L61 29" stroke="#E8793A" stroke-width="5.5" stroke-linejoin="round"/>
       <path class="sail s1" d="M50 32.4 50 66 32 66Z" fill="#FFFFFF" stroke="none"/>
       <path class="sail s2" d="M54.8 40.8 54.8 66 69.2 66Z" fill="#E8793A" stroke="none"/>
       <path class="sail hull" d="M29.6 69.6H70.4L65.6 76.8H34.4Z" fill="#FFFFFF" stroke="none"/>
