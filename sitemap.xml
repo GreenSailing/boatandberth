@@ -92,6 +92,825 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/"/>
   </url>
   <url>
+    <loc>https://boatandberth.com/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/greece.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/greece.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/greece.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/croatia.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/croatia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/croatia.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/turkey.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/turkey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/turkey.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/cyprus.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/cyprus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/cyprus.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/malta.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/malta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/malta.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/italy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/italy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/italy.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/spain.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/spain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/spain.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/de/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/fr/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/it/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/es/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/nl/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
+    <loc>https://boatandberth.com/el/guides/france.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boatandberth.com/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://boatandberth.com/de/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://boatandberth.com/fr/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://boatandberth.com/it/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://boatandberth.com/es/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://boatandberth.com/nl/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://boatandberth.com/el/guides/france.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boatandberth.com/guides/france.html"/>
+  </url>
+  <url>
     <loc>https://boatandberth.com/ad-rules.html</loc>
     <lastmod>2026-11-13</lastmod>
     <priority>0.3</priority>
