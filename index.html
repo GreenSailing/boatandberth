@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Boat &amp; Berth: find, buy and keep a used sailboat in the Mediterranean</title>
-<meta name="description" content="Boat &amp; Berth is an app for Android and iPhone for buying, then owning, a used sailboat in Greece, Croatia, Turkey, Cyprus, Malta, Italy, Spain and France. Free to use, with in-app purchases for extras.">
+<title>Boat &amp; Berth: find, buy and keep a sailboat in the Mediterranean</title>
+<meta name="description" content="Boat &amp; Berth is an app for Android and iPhone for buying, then owning, a sailboat in Greece, Croatia, Turkey, Cyprus, Malta, Italy, Spain and France. Free to use, with in-app purchases for extras.">
 <meta property="og:title" content="Boat &amp; Berth">
-<meta property="og:description" content="Find a boat, buy it well, keep it right. An app for used sailboats in the Mediterranean.">
+<meta property="og:description" content="Find a boat, buy it well, keep it right. An app for sailboats in the Mediterranean.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://boatandberth.com/">
 <meta property="og:image" content="https://boatandberth.com/img/share-1200x630.png">
@@ -117,9 +117,8 @@ footer p{margin:0}
 #launch .lc { width: 160px; height: 160px; border-radius: 50%; background: #2A5C8A; display: flex; align-items: center; justify-content: center;
   transition: transform .45s cubic-bezier(.2,0,0,1); }
 #launch .lc svg { width: 180px; height: 180px; overflow: visible; }
-#launch .ring { stroke-dasharray: 164; stroke-dashoffset: 164; }
+#launch .ring { stroke-dasharray: 70; stroke-dashoffset: 70; }
 #launch .tick { stroke-dasharray: 7; stroke-dashoffset: 7; }
-#launch .hull { stroke-dasharray: 29; stroke-dashoffset: 29; }
 #launch .sail { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); }
 #launch .lt { position: absolute; left: 50%; top: 100%; width: 320px; margin-left: -160px; padding-top: 14px; text-align: center;
   opacity: 0; transform: translateY(10px); transition: opacity .45s ease, transform .45s cubic-bezier(.2,0,0,1); }
@@ -133,14 +132,14 @@ footer p{margin:0}
 #launch.go .t4 { animation: lDraw .28s cubic-bezier(.4,0,.2,1) .54s forwards; }
 #launch.go .s1 { animation: lRise .53s cubic-bezier(.4,0,.2,1) .47s forwards; }
 #launch.go .s2 { animation: lRise .47s cubic-bezier(.4,0,.2,1) .64s forwards; }
-#launch.go .hull { animation: lDraw .37s cubic-bezier(.4,0,.2,1) .83s forwards; }
+#launch.go .hull { animation: lRise .3s cubic-bezier(.4,0,.2,1) .3s forwards; }
 #launch.named .lm { transform: translateY(-62px); }
 #launch.named .lc { transform: scale(.8); }
 #launch.named .lt { opacity: 1; transform: none; }
 @keyframes lDraw { to { stroke-dashoffset: 0; } }
 @keyframes lRise { to { transform: scaleY(1); } }
 @media (prefers-reduced-motion: reduce) {
-  #launch .ring, #launch .tick, #launch .hull { stroke-dashoffset: 0; }
+  #launch .ring, #launch .tick { stroke-dashoffset: 0; }
   #launch .sail { transform: none; }
   #launch .lm, #launch .lc, #launch .lt { transition: none; }
 }
@@ -149,13 +148,12 @@ footer p{margin:0}
 <body>
 <div id="launch" aria-hidden="true" data-no-translate>
   <div class="lm">
-    <div class="lc"><svg viewBox="0 4 100 100" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
-      <circle class="ring" cx="50" cy="54" r="26" transform="rotate(-90 50 54)"/>
-      <path class="tick t1" d="M50 24V18"/><path class="tick t2" d="M80 54H86"/><path class="tick t3" d="M50 84V90"/><path class="tick t4" d="M20 54H14"/>
-      <path class="sail s1" d="M50 28 50 58 32 58Z" fill="#FFFFFF" stroke="none"/>
-      <path class="sail s2" d="M55 36 55 58 68 58Z" fill="#E8793A" stroke="none"/>
-      <path class="hull" d="M36 62H64" stroke="#E8793A" stroke-width="4"/>
-    </svg></div>
+    <div class="lc"><svg viewBox="0 4 100 100" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"><g transform="translate(50 54) scale(0.9) translate(-50 -46.65)">
+      <path class="ring" d="M22 40 L50 20 L78 40" stroke="#E8793A" stroke-width="7" stroke-linejoin="round"/>
+      <path class="sail s1" d="M50 32.4 50 66 32 66Z" fill="#FFFFFF" stroke="none"/>
+      <path class="sail s2" d="M54.8 40.8 54.8 66 69.2 66Z" fill="#E8793A" stroke="none"/>
+      <path class="sail hull" d="M29.6 69.6H70.4L65.6 76.8H34.4Z" fill="#FFFFFF" stroke="none"/>
+    </g></svg></div>
     <div class="lt"><div class="lw">Boat <b>&amp;</b> Berth</div><div class="lg">FIND · BUY · KEEP</div></div>
   </div>
 </div>
@@ -209,7 +207,7 @@ footer p{margin:0}
   <div class="wrap">
     <div class="hero-copy">
       <h1><span data-t="h1a">Find a boat,</span><span class="o" data-t="h1b">buy it well,</span><span data-t="h1c">keep it right.</span></h1>
-      <p class="lead" data-t="lead">An app for Android and iPhone for buying, then owning, a used sailboat in the Mediterranean.</p>
+      <p class="lead" data-t="lead">An app for Android and iPhone for buying, then owning, a sailboat in the Mediterranean.</p>
       <div class="stores" role="group" aria-label="App stores">
         <span class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><span><small data-t="st_s">Coming soon to</small><b>Google Play</b></span></span>
         <span class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><span><small data-t="st_s">Coming soon to</small><b>App Store</b></span></span>
@@ -329,7 +327,7 @@ footer p{margin:0}
   var T = {
     de: { st_s: "Bald bei", m4_h: "Suche nach Modell", m4_p: "Wählen Sie Marke und Modell und sehen Sie alle, die im Mittelmeer zum Verkauf stehen, mit den geforderten Preisen.", m5_h: "Sichern und wiederherstellen", m5_p: "Speichern Sie Ihre Aufzeichnungen in einer Datei, in Google Drive oder wo Sie möchten, und holen Sie sie auf ein neues Telefon zurück.", m6_h: "Ihr Boot verkaufen", m6_p: "Geben Sie eine private Anzeige mit Ihrer Wartungshistorie auf, gesehen von Käufern, die ein Boot wie Ihres suchen.", p_h: "Kostenlos starten, Pläne bei Bedarf", p_n: "Boote finden, die Länderratgeber und der Wartungsplan sind kostenlos. Ein Plan öffnet die Werkzeuge für Ihre jeweilige Phase.", p1_h: "Kaufpass", p1_t: "für 6 Monate", p1_p: "Was Sie bieten sollten, das Gutachten als Preisargument, die zu prüfenden Papiere und die Modellsuche.", p2_h: "Eignerplan", p2_t: "pro Jahr", p2_p: "Erinnerungen, der Dokumententresor, Kosten Jahr für Jahr, die Wartungshistorie und die Sicherung.", p3_h: "Komplettplan", p3_p: "Beide Pläne und alle Extras: die Lernkarten, der UKW-Trainer und die Kartenpakete.",
       lang: "Sprache", h1a: "Das richtige Boot finden,", h1b: "gut kaufen,", h1c: "richtig pflegen.",
-      lead: "Eine App für Android und iPhone für den Kauf und den Besitz eines gebrauchten Segelboots im Mittelmeer.",
+      lead: "Eine App für Android und iPhone für den Kauf und den Besitz eines Segelboots im Mittelmeer.",
       soon: "Bald bei Google Play und im App Store", free: "Kostenlos nutzbar, mit In-App-Käufen für Extras.",
       k1: "Finden", f_h: "Boote zum Verkauf, für Sie sortiert",
       f_1: "Beantworten Sie zehn Fragen zu Ihrem Budget, der gewünschten Größe und dem, was Ihnen wichtig ist.",
@@ -354,7 +352,7 @@ footer p{margin:0}
       altWelcome: "Der erste Bildschirm der App: Ich suche ein Boot, oder ich habe schon ein Boot", altFind: "Der Finden-Bildschirm: Boote zum Verkauf, nach Bewertung sortiert", altBuy: "Der Kaufen-Bildschirm: Checkliste, Fragen an den Verkäufer und Formalitäten", altKeep: "Der Pflegen-Bildschirm: Wartungsplan, Logbuch und Wartungshistorie" },
     fr: { st_s: "Bientôt sur", m4_h: "Recherche par modèle", m4_p: "Choisissez une marque et un modèle et voyez tous ceux en vente en Méditerranée, avec les prix demandés.", m5_h: "Sauvegarder et restaurer", m5_p: "Enregistrez vos données dans un fichier, sur Google Drive ou ailleurs, et retrouvez-les sur un nouveau téléphone.", m6_h: "Vendre votre bateau", m6_p: "Publiez une annonce privée avec votre historique d'entretien, vue par les acheteurs qui cherchent un bateau comme le vôtre.", p_h: "Gratuit pour commencer, des formules quand il le faut", p_n: "Trouver des bateaux, les guides par pays et le plan d'entretien sont gratuits. Une formule ouvre les outils de l'étape où vous êtes.", p1_h: "Pass achat", p1_t: "pour 6 mois", p1_p: "Quoi offrir, l'expertise transformée en baisse de prix, les papiers à vérifier et la recherche par modèle.", p2_h: "Formule propriétaire", p2_t: "par an", p2_p: "Rappels, coffre à documents, coûts année par année, historique d'entretien et sauvegarde.", p3_h: "Formule complète", p3_p: "Les deux formules et tous les extras : les fiches de cours, l'entraîneur VHF et les jeux de fiches.",
       lang: "Langue", h1a: "Trouver un bateau,", h1b: "l'acheter au juste prix,", h1c: "bien l'entretenir.",
-      lead: "Une application pour Android et iPhone pour acheter, puis posséder, un voilier d'occasion en Méditerranée.",
+      lead: "Une application pour Android et iPhone pour acheter, puis posséder, un voilier en Méditerranée.",
       soon: "Bientôt sur Google Play et l'App Store", free: "Gratuite, avec des achats intégrés pour les extras.",
       k1: "Trouver", f_h: "Les bateaux à vendre, classés pour vous",
       f_1: "Répondez à dix questions sur votre budget, la taille souhaitée et ce qui compte pour vous.",
@@ -379,7 +377,7 @@ footer p{margin:0}
       altWelcome: "Le premier écran de l'application : je cherche un bateau, ou j'ai déjà un bateau", altFind: "L'écran Trouver : bateaux à vendre classés par note", altBuy: "L'écran Acheter : liste de contrôle, questions au vendeur et démarches", altKeep: "L'écran Entretenir : plan d'entretien, journal et historique" },
     it: { st_s: "Presto su", m4_h: "Ricerca per modello", m4_p: "Scegliete marca e modello e vedete tutti quelli in vendita nel Mediterraneo, con i prezzi richiesti.", m5_h: "Backup e ripristino", m5_p: "Salvate i vostri dati in un file, su Google Drive o dove volete, e ritrovateli su un nuovo telefono.", m6_h: "Vendete la vostra barca", m6_p: "Pubblicate un annuncio privato con lo storico della manutenzione, visto da chi cerca una barca come la vostra.", p_h: "Gratis per iniziare, piani quando servono", p_n: "Trovare barche, le guide per Paese e il piano di manutenzione sono gratuiti. Un piano apre gli strumenti della fase in cui siete.", p1_h: "Pass acquisto", p1_t: "per 6 mesi", p1_p: "Quanto offrire, la perizia trasformata in uno sconto, i documenti da controllare e la ricerca per modello.", p2_h: "Piano armatore", p2_t: "all'anno", p2_p: "Promemoria, cassaforte dei documenti, costi anno per anno, storico della manutenzione e backup.", p3_h: "Piano completo", p3_p: "Entrambi i piani e tutti gli extra: le schede del corso, il trainer VHF e i pacchetti di schede.",
       lang: "Lingua", h1a: "Trova la barca,", h1b: "comprala al prezzo giusto,", h1c: "curala bene.",
-      lead: "Un'app per Android e iPhone per comprare, e poi possedere, una barca a vela usata nel Mediterraneo.",
+      lead: "Un'app per Android e iPhone per comprare, e poi possedere, una barca a vela nel Mediterraneo.",
       soon: "Presto su Google Play e App Store", free: "Gratuita, con acquisti in-app per gli extra.",
       k1: "Trova", f_h: "Barche in vendita, ordinate per te",
       f_1: "Rispondi a dieci domande sul budget, sulla misura che vuoi e su ciò che conta per te.",
@@ -404,7 +402,7 @@ footer p{margin:0}
       altWelcome: "La prima schermata dell'app: cerco una barca, oppure ho già una barca", altFind: "La schermata Trova: barche in vendita ordinate per punteggio", altBuy: "La schermata Compra: lista di controllo, domande al venditore e pratiche", altKeep: "La schermata Mantieni: piano di manutenzione, registro e storico" },
     es: { st_s: "Próximamente en", m4_h: "Búsqueda por modelo", m4_p: "Elija marca y modelo y vea todos los que están en venta en el Mediterráneo, con los precios pedidos.", m5_h: "Copia de seguridad y restauración", m5_p: "Guarde sus datos en un archivo, en Google Drive o donde quiera, y recupérelos en un teléfono nuevo.", m6_h: "Venda su barco", m6_p: "Publique un anuncio privado con su historial de mantenimiento, visto por compradores que buscan un barco como el suyo.", p_h: "Gratis para empezar, planes cuando los necesite", p_n: "Encontrar barcos, las guías por país y el plan de mantenimiento son gratuitos. Un plan abre las herramientas de la etapa en la que está.", p1_h: "Pase de compra", p1_t: "por 6 meses", p1_p: "Qué ofrecer, el peritaje convertido en rebaja, los papeles que comprobar y la búsqueda por modelo.", p2_h: "Plan de propietario", p2_t: "al año", p2_p: "Recordatorios, caja de documentos, costes año a año, historial de mantenimiento y copia de seguridad.", p3_h: "Plan completo", p3_p: "Los dos planes y todos los extras: las fichas del curso, el entrenador de VHF y los paquetes de fichas.",
       lang: "Idioma", h1a: "Encuentra un barco,", h1b: "cómpralo con acierto,", h1c: "cuídalo bien.",
-      lead: "Una app para Android y iPhone para comprar, y después tener, un velero de segunda mano en el Mediterráneo.",
+      lead: "Una app para Android y iPhone para comprar, y después tener, un velero en el Mediterráneo.",
       soon: "Próximamente en Google Play y App Store", free: "Gratis, con compras dentro de la app para los extras.",
       k1: "Buscar", f_h: "Barcos en venta, ordenados para ti",
       f_1: "Responde a diez preguntas sobre tu presupuesto, la eslora que quieres y lo que te importa.",
@@ -429,7 +427,7 @@ footer p{margin:0}
       altWelcome: "La primera pantalla de la aplicación: busco un barco, o ya tengo un barco", altFind: "La pantalla Buscar: barcos en venta ordenados por puntuación", altBuy: "La pantalla Comprar: lista de comprobación, preguntas al vendedor y trámites", altKeep: "La pantalla Mantener: plan de mantenimiento, registro e historial" },
     nl: { st_s: "Binnenkort in", m4_h: "Zoeken op model", m4_p: "Kies merk en model en zie alle boten die in de Middellandse Zee te koop staan, met de vraagprijzen.", m5_h: "Back-up en terugzetten", m5_p: "Bewaar uw gegevens in een bestand, in Google Drive of waar u wilt, en zet ze terug op een nieuwe telefoon.", m6_h: "Uw boot verkopen", m6_p: "Plaats een particuliere advertentie met uw onderhoudshistorie, gezien door kopers die een boot als de uwe zoeken.", p_h: "Gratis beginnen, abonnementen wanneer u ze nodig hebt", p_n: "Boten vinden, de landengidsen en het onderhoudsplan zijn gratis. Een abonnement opent de hulpmiddelen voor de fase waarin u zit.", p1_h: "Kooppas", p1_t: "voor 6 maanden", p1_p: "Wat u moet bieden, de keuring omgezet in een lagere prijs, de papieren om te controleren en het zoeken op model.", p2_h: "Eigenaarsplan", p2_t: "per jaar", p2_p: "Herinneringen, de documentenkluis, kosten per jaar, de onderhoudshistorie en back-up.", p3_h: "Volledig plan", p3_p: "Beide plannen en alle extra's: de cursuskaarten, de marifoontrainer en de kaartpakketten.",
       lang: "Taal", h1a: "Een boot vinden,", h1b: "slim kopen,", h1c: "goed onderhouden.",
-      lead: "Een app voor Android en iPhone voor het kopen en daarna bezitten van een tweedehands zeilboot in de Middellandse Zee.",
+      lead: "Een app voor Android en iPhone voor het kopen en daarna bezitten van een zeilboot in de Middellandse Zee.",
       soon: "Binnenkort in Google Play en de App Store", free: "Gratis te gebruiken, met in-app-aankopen voor extra's.",
       k1: "Vinden", f_h: "Boten te koop, voor u gerangschikt",
       f_1: "Beantwoord tien vragen over uw budget, de gewenste maat en wat voor u telt.",
@@ -454,7 +452,7 @@ footer p{margin:0}
       altWelcome: "Het eerste scherm van de app: ik zoek een boot, of ik heb al een boot", altFind: "Het scherm Vinden: boten te koop, gerangschikt op score", altBuy: "Het scherm Kopen: checklist, vragen voor de verkoper en papierwerk", altKeep: "Het scherm Onderhouden: onderhoudsplan, log en historie" },
     el: { st_s: "Σύντομα στο", m4_h: "Αναζήτηση ανά μοντέλο", m4_p: "Διαλέξτε μάρκα και μοντέλο και δείτε όλα όσα πωλούνται στη Μεσόγειο, με τις ζητούμενες τιμές.", m5_h: "Αντίγραφο ασφαλείας και επαναφορά", m5_p: "Αποθηκεύστε τα στοιχεία σας σε αρχείο, στο Google Drive ή όπου θέλετε, και επαναφέρετέ τα σε νέο τηλέφωνο.", m6_h: "Πουλήστε το σκάφος σας", m6_p: "Βάλτε ιδιωτική αγγελία με το ιστορικό συντήρησης, που τη βλέπουν αγοραστές που ψάχνουν σκάφος σαν το δικό σας.", p_h: "Δωρεάν για αρχή, πλάνα όταν τα χρειαστείτε", p_n: "Η αναζήτηση σκαφών, οι οδηγοί ανά χώρα και το πλάνο συντήρησης είναι δωρεάν. Ένα πλάνο ανοίγει τα εργαλεία για το στάδιο όπου βρίσκεστε.", p1_h: "Πάσο αγοράς", p1_t: "για 6 μήνες", p1_p: "Τι να προσφέρετε, η επιθεώρηση ως επιχείρημα για χαμηλότερη τιμή, τα έγγραφα προς έλεγχο και η αναζήτηση ανά μοντέλο.", p2_h: "Πλάνο ιδιοκτήτη", p2_t: "τον χρόνο", p2_p: "Υπενθυμίσεις, θυρίδα εγγράφων, κόστη χρόνο με τον χρόνο, ιστορικό συντήρησης και αντίγραφο ασφαλείας.", p3_h: "Πλήρες πλάνο", p3_p: "Και τα δύο πλάνα και όλα τα πρόσθετα: οι κάρτες μαθημάτων, ο εκπαιδευτής VHF και τα πακέτα καρτών.",
       lang: "Γλώσσα", h1a: "Βρείτε σκάφος,", h1b: "αγοράστε έξυπνα,", h1c: "φροντίστε το σωστά.",
-      lead: "Μια εφαρμογή για Android και iPhone για την αγορά και έπειτα την ιδιοκτησία ενός μεταχειρισμένου ιστιοπλοϊκού στη Μεσόγειο.",
+      lead: "Μια εφαρμογή για Android και iPhone για την αγορά και έπειτα την ιδιοκτησία ενός ιστιοπλοϊκού στη Μεσόγειο.",
       soon: "Σύντομα στο Google Play και στο App Store", free: "Δωρεάν χρήση, με αγορές εντός εφαρμογής για τα επιπλέον.",
       k1: "Αναζήτηση", f_h: "Σκάφη προς πώληση, ταξινομημένα για εσάς",
       f_1: "Απαντήστε σε δέκα ερωτήσεις για το ποσό που διαθέτετε, το μέγεθος που θέλετε και όσα μετρούν για εσάς.",
