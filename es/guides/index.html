@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Guías por país: comprar y mantener un velero en el Mediterráneo | Boat &amp; Berth</title>
-<meta name="description" content="Costes, comprobaciones, puertos y trámites de ocho países, de la app Boat &amp; Berth.">
+<meta name="description" content="Costes, comprobaciones, puertos y trámites de ocho países, de la app Boat &amp; Berth. Las guías completas son gratis en la app.">
 <meta property="og:title" content="Guías por país: comprar y mantener un velero en el Mediterráneo | Boat &amp; Berth">
-<meta property="og:description" content="Costes, comprobaciones, puertos y trámites de ocho países, de la app Boat &amp; Berth.">
+<meta property="og:description" content="Costes, comprobaciones, puertos y trámites de ocho países, de la app Boat &amp; Berth. Las guías completas son gratis en la app.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://boatandberth.com/es/guides/">
 <meta property="og:image" content="https://boatandberth.com/img/share-1200x630.png">
@@ -186,12 +186,49 @@ footer p{margin:0}
   #launch .lm, #launch .lc, #launch .lt { transition: none; }
 }
 
+/* v0.198: the journey (five steps as tabs) and the tablet switcher */
+.journey-sec{padding:56px 0;border-bottom:1px solid var(--line)}
+.journey-sec h2{font-size:clamp(1.7rem,4.4vw,2.4rem)}
+.journey{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:22px 0 8px;position:relative}
+.journey::before{content:"";position:absolute;left:10%;right:10%;top:18px;height:3px;background:var(--line)}
+.journey button{font:inherit;border:0;background:transparent;cursor:pointer;display:grid;justify-items:center;gap:6px;color:var(--soft);font-size:.85rem;font-weight:600;position:relative;padding:0}
+.journey button i{width:38px;height:38px;border-radius:50%;background:#fff;border:3px solid var(--line);display:grid;place-items:center;font-style:normal;font-size:.95rem}
+.journey button[aria-selected="true"]{color:var(--deep)}
+.journey button[aria-selected="true"] i{background:var(--orange);border-color:var(--orange);color:#fff}
+.journey button.done i{border-color:var(--blue);color:var(--blue)}
+.journey button:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:8px}
+.jpanel{display:grid;gap:26px;padding-top:26px}
+.jpanel h3{font-size:clamp(1.35rem,3.4vw,1.8rem);margin:0}
+.jpanel ul{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px;max-width:46rem}
+.jpanel ul li{position:relative;padding-left:30px}
+.jpanel ul li::before{content:"";position:absolute;left:0;top:.42em;width:14px;height:14px;border:3px solid var(--blue);border-radius:50%}
+.js .jpanel[hidden]{display:none}
+.qbox{margin-top:18px;background:#F6FAFC;border:1px solid var(--line);border-radius:14px;padding:14px 16px;max-width:46rem}
+.qlist{margin:8px 0 0;padding-left:1.4em;columns:2;column-gap:28px;font-size:.95rem;line-height:1.5}
+.row4.three{max-width:760px}
+@media (min-width:820px){.row4.three{grid-template-columns:repeat(3,1fr)}}
+.tabbar{display:inline-flex;gap:4px;background:#E4ECF2;border-radius:999px;padding:4px;margin-top:16px;flex-wrap:wrap}
+.tabbar button{font:inherit;font-weight:600;font-size:.9rem;border:0;background:transparent;color:var(--soft);padding:8px 14px;border-radius:999px;cursor:pointer}
+.tabbar button[aria-selected="true"]{background:#fff;color:var(--deep);box-shadow:0 1px 4px rgba(19,41,61,.15)}
+.tabshots.one{max-width:900px}
+@media (min-width:820px){.tabshots.one{grid-template-columns:1fr}}
+.js .tabshots.one figure[hidden]{display:none}
+@media (max-width:520px){.journey button span{font-size:.72rem}.qlist{columns:1}}
+
 .g-head{background:var(--paper);border-bottom:1px solid var(--line);padding:34px 0 30px}
 .crumbs{font-size:.92rem;color:var(--soft);margin-bottom:12px}.crumbs a{color:var(--soft)}
 .g-head h1{font-size:clamp(1.8rem,5vw,2.7rem)}
 .g-head .lead{margin:12px 0 0;max-width:44rem;color:var(--deep)}
 .big{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:18px}
 .big b{font-family:"Caladea",Georgia,serif;font-size:2.4rem;color:var(--blue);line-height:1}.big span{color:var(--soft)}
+.xnote{background:#FFF4EC;border:1px solid #F3C9A9;border-radius:12px;padding:12px 14px;margin:22px 0 0;max-width:46rem;font-size:.95rem}
+.xrow{display:grid;gap:18px;align-items:start}
+.xshot{margin:0;max-width:240px}
+.xshot img{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);box-shadow:0 8px 24px rgba(19,41,61,.14);display:block}
+.xshot figcaption{margin-top:8px;font-weight:600;font-size:.9rem}
+ul.xlist{margin:0;padding-left:1.2em;columns:2;column-gap:24px;font-size:.95rem;line-height:1.55}
+@media (min-width:760px){.xrow{grid-template-columns:minmax(0,1fr) 240px;gap:32px}}
+@media (max-width:520px){ul.xlist{columns:1}.xshot{max-width:220px}}
 .g-body{padding:10px 0 50px}
 .g-body h2{font-size:clamp(1.4rem,3.6vw,1.8rem);margin:38px 0 10px}
 .g-body .sub{color:var(--soft);font-size:.96rem;margin:0 0 14px;max-width:46rem}
@@ -227,7 +264,7 @@ ul.mlist li{padding:5px 0;border-bottom:1px dashed var(--line);display:flex;just
   </div>
 </header>
 <main>
-<div class="g-head"><div class="wrap"><div class="crumbs"><a href="../../es/">Inicio</a></div><h1>Guías por país: comprar y mantener un velero en el Mediterráneo</h1><p class="lead">Costes, comprobaciones, puertos y trámites de ocho países, de la app Boat &amp; Berth.</p></div></div>
+<div class="g-head"><div class="wrap"><div class="crumbs"><a href="../../es/">Inicio</a></div><h1>Guías por país: comprar y mantener un velero en el Mediterráneo</h1><p class="lead">Costes, comprobaciones, puertos y trámites de ocho países, de la app Boat &amp; Berth. Las guías completas son gratis en la app.</p></div></div>
 <div class="g-body"><div class="wrap"><div class="glist"><a class="gcard" href="greece.html"><b>Grecia</b><span>veleros en venta: Grecia: 1550+</span><em>Leer la guía ›</em></a>
 <a class="gcard" href="croatia.html"><b>Croacia</b><span>veleros en venta: Croacia: 1590+</span><em>Leer la guía ›</em></a>
 <a class="gcard" href="turkey.html"><b>Turquía</b><span>veleros en venta: Turquía: 270+</span><em>Leer la guía ›</em></a>
